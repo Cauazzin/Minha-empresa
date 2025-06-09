@@ -1,0 +1,57 @@
+body {
+    background-color: #f4f4f4;
+    color: #000;
+    font-weight: bold;
+}
+
+
+.portfolio {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+    margin-top: 20px;
+}
+
+    .item {
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+.item img {
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+button {
+    background: #2F76B8;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.rodape{
+    display: flex;
+    background-color: #190B95;
+    align-items: center;
+    padding: 20px 150px;
+    justify-content: space-between;
+
+    & p{
+        font-size: 24px;
+    }
+
+    & .icons{
+        display: flex;
+        gap: 40px;
+    }
+}
